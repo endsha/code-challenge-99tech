@@ -13,7 +13,7 @@ const LoadingSpinner = ({ size = "medium" }: LoadingSpinnerProps) => {
     <div
       className={`inline-flex items-center justify-center ${sizeClasses[size]}`}
     >
-      <div className="w-full h-full border-3 border-white/30 border-t-white rounded-full animate-spin transition-all duration-300"></div>
+      <div className="w-full h-full border-3 border-blue-200 border-t-blue-400 rounded-full animate-spin transition-all duration-300"></div>
     </div>
   );
 };

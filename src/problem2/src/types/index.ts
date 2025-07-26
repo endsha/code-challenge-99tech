@@ -20,3 +20,7 @@ export interface ValidationErrors {
   toAmount?: string;
   general?: string;
 }
+
+export interface AccountBalance {
+  [currency: string]: number;
+}
